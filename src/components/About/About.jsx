@@ -78,20 +78,21 @@ const About = () => {
           <FcContacts className='text-3xl' />
         </div>
         <p>Stay updated with the latest offers, product launches, and photography samples by following us on social media:</p>
-        <ul className='space-y-1'>
+
+        <ul className='space-y-5'>
           <div className='flex items-center gap-2'>
-            <li>Phone Number : 01756154620</li>
             <BsFillTelephoneFill className='text-3xl' />
+            <li><span className='underline font-bold'>Phone Number</span> : 01756154620</li>
           </div>
 
           <div className='flex items-start md:items-center gap-2'>
             <BsFacebook className='text-6xl md:text-2xl' />
-            <Link to={'https://www.facebook.com/profile.php?id=100090280965455'}>Facebook: https://www.facebook.com/profile.php?id=100090280965455</Link>
+            <Link to={'https://www.facebook.com/profile.php?id=100090280965455'}> <span className='underline font-bold'>Facebook</span> : https://www.facebook.com/profile.php?id=100090280965455</Link>
           </div>
 
           <div className='flex items-center gap-2'>
             <BsWhatsapp className='text-2xl' />
-            <li>Whatsapp: 01756154620</li>
+            <li><span className='underline font-bold'>Whatsapp</span>: 01756154620</li>
           </div>
         </ul>
       </div>
