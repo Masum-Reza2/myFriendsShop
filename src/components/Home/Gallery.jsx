@@ -21,19 +21,19 @@ const Gallery = () => {
 
             <div className=' w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
 
-                <img className='rounded-lg w-full' src={wed1} alt="Wedding image" />
-                <img className='rounded-lg w-full' src={wed2} alt="Wedding image" />
-                <img className='rounded-lg w-full' src={wed3} alt="Wedding image" />
-                <img className='rounded-lg w-full' src={wed4} alt="Wedding image" />
-                <img className='rounded-lg w-full' src={wed5} alt="Wedding image" />
-                <img className='rounded-lg w-full' src={wed6} alt="Wedding image" />
-                <img className='rounded-lg w-full' src={wed7} alt="Wedding image" />
-                <img className='rounded-lg w-full' src={wed8} alt="Wedding image" />
-                <img className='rounded-lg w-full' src={wed9} alt="Wedding image" />
-                <img className='rounded-lg w-full' src={wed10} alt="Wedding image" />
-                <img className='rounded-lg w-full' src={wed11} alt="Wedding image" />
-                <img className='rounded-lg w-full' src={wed12} alt="Wedding image" />
-                <img className='rounded-lg w-full' src={wed13} alt="Wedding image" />
+                <img className='rounded-lg w-full transition-all duration-500 hover:-translate-y-2 cursor-pointer' src={wed1} alt="Wedding image" />
+                <img className='rounded-lg w-full transition-all duration-500 hover:-translate-y-2 cursor-pointer' src={wed2} alt="Wedding image" />
+                <img className='rounded-lg w-full transition-all duration-500 hover:-translate-y-2 cursor-pointer' src={wed3} alt="Wedding image" />
+                <img className='rounded-lg w-full transition-all duration-500 hover:-translate-y-2 cursor-pointer' src={wed4} alt="Wedding image" />
+                <img className='rounded-lg w-full transition-all duration-500 hover:-translate-y-2 cursor-pointer' src={wed5} alt="Wedding image" />
+                <img className='rounded-lg w-full transition-all duration-500 hover:-translate-y-2 cursor-pointer' src={wed6} alt="Wedding image" />
+                <img className='rounded-lg w-full transition-all duration-500 hover:-translate-y-2 cursor-pointer' src={wed7} alt="Wedding image" />
+                <img className='rounded-lg w-full transition-all duration-500 hover:-translate-y-2 cursor-pointer' src={wed8} alt="Wedding image" />
+                <img className='rounded-lg w-full transition-all duration-500 hover:-translate-y-2 cursor-pointer' src={wed9} alt="Wedding image" />
+                <img className='rounded-lg w-full transition-all duration-500 hover:-translate-y-2 cursor-pointer' src={wed10} alt="Wedding image" />
+                <img className='rounded-lg w-full transition-all duration-500 hover:-translate-y-2 cursor-pointer' src={wed11} alt="Wedding image" />
+                <img className='rounded-lg w-full transition-all duration-500 hover:-translate-y-2 cursor-pointer' src={wed12} alt="Wedding image" />
+                <img className='rounded-lg w-full transition-all duration-500 hover:-translate-y-2 cursor-pointer' src={wed13} alt="Wedding image" />
 
             </div>
         </>

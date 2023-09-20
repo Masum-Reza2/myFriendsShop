@@ -5,8 +5,8 @@ import Introduction from '../Introduction/Introduction'
 
 const Home = () => {
     const [intro, setIntro] = useState(true);
-    const handleIntro = () => {
-        setIntro(false)
+    const handleIntro = (cond) => {
+        setIntro(cond)
     }
     console.log(intro)
     return (
