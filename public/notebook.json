@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.ibb.co/zHCSC75/note-1.jpg",
+      "price": "30tk",
+      "studyPhrase": "Unlock your potential with our affordable notebooks.",
+      "description": "Our affordable notebooks are meticulously designed to empower you on your educational journey. Crafted with high-quality materials, they provide a comfortable canvas for your thoughts, allowing you to unlock your full potential. Whether you're a student embarking on a new academic adventure or a professional seeking to organize your ideas, our notebooks are here to support you every step of the way."
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co/ckPdQHR/note-2.jpg",
+      "price": "50tk",
+      "studyPhrase": "Quality notebooks for serious students.",
+      "description": "Serious students demand quality tools, and our notebooks deliver just that. Immerse yourself in the world of knowledge with notebooks crafted from premium materials, designed to enhance your study experience. The durable pages ensure your notes remain intact, even through the most intense study sessions. Elevate your academic pursuits with our trusted companions."
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co/4WxDVm9/note-3.webp",
+      "price": "80tk",
+      "studyPhrase": "Take notes in style with our premium notebooks.",
+      "description": "Elegance meets functionality with our premium notebooks. From lecture halls to boardrooms, these notebooks make a statement. The high-quality paper is a joy to write on, and the stylish design adds a touch of sophistication to your note-taking. Experience a new level of professionalism and style while capturing your ideas in our premium notebooks."
+    },
+   
+    {
+      "id": 4,
+      "img": "https://i.ibb.co/8Bky7nn/note-5.webp",
+      "price": "30tk",
+      "studyPhrase": "Affordable notebooks for every student.",
+      "description": "Education should be accessible to all, and our affordable notebooks are designed with this principle in mind. They are the perfect companions for students from all walks of life. Despite their low price, these notebooks don't compromise on quality. They offer reliable performance and are a testament to our commitment to making quality education within reach of every student."
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co/ckPdQHR/note-2.jpg",
+      "price": "50tk",
+      "studyPhrase": "Note-taking made easy with our budget-friendly notebooks.",
+      "description": "Simplify your note-taking process with our budget-friendly notebooks. Designed for practicality, they offer a straightforward solution for students and professionals alike. The carefully chosen materials strike a balance between affordability and functionality. Organize your thoughts effortlessly and let our notebooks be your trusted partners in productivity."
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co/zFDpCnn/note-7.jpg",
+      "price": "80tk",
+      "studyPhrase": "Your study companion - our high-quality notebooks.",
+      "description": "Consider our high-quality notebooks as your loyal study companions. They are built to withstand the rigors of your educational journey, providing you with reliable and durable support. With their well-crafted pages, these notebooks ensure that your notes are neatly preserved, allowing you to focus on your studies without any distractions."
+    },
+    {
+      "id": 7,
+      "img": "https://i.ibb.co/Dt7FbtB/note-8.jpg",
+      "price": "125tk",
+      "studyPhrase": "Luxury notebooks to inspire your academic journey.",
+      "description": "Let luxury inspire your academic journey with our premium notebooks. Immerse yourself in the world of academia with notebooks that not only facilitate learning but also exude elegance and sophistication. Every page is a canvas for your ideas, and every word you write is a step closer to achieving your academic aspirations."
+    },
+    {
+      "id": 8,
+      "img": "https://i.ibb.co/gTT90rz/note-10.jpg",
+      "price": "30tk",
+      "studyPhrase": "Start your day with a fresh notebook and a clear mind.",
+      "description": "Begin each day with a fresh notebook and a clear mind, ready to capture new ideas and discoveries. Our notebooks provide a blank canvas for your thoughts, helping you start your day on a productive note. Whether you're a student or a professional, our notebooks are the perfect tools to kickstart your daily journey of creativity and learning."
+    },
+    {
+      "id": 9,
+      "img": "https://i.ibb.co/gy4T4TT/note-11.jpg",
+      "price": "50tk",
+      "studyPhrase": "Every successful study session begins with the right notebook.",
+      "description": "The foundation of every successful study session is having the right tools, and it all starts with the right notebook. Choose our notebooks to ensure that every study session is a step toward your academic and professional goals. Our notebooks provide the perfect canvas for your ideas and aspirations, empowering you to achieve greatness."
+    }
+  ]
+  

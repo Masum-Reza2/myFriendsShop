@@ -29,9 +29,9 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       { path: '/about', element: <About /> },
-      { path: '/notes', element: <Note /> },
+      { path: '/notes', loader: () => fetch('notebook.json'), element: <Note /> },
       { path: '/pens', element: <Pens /> },
-      { path: '/mobiles',element: <Mobile /> },
+      { path: '/mobiles', element: <Mobile /> },
       { path: '/chargers', element: <Chargers /> },
       { path: '/gadgets', element: <Gadgets /> },
       { path: '/frames', element: <Frames /> },
