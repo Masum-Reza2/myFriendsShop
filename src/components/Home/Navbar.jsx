@@ -34,7 +34,7 @@ const Navbar = ({ handleIntro }) => {
                     <NavLink onClick={handleIntro} to='/about' className='border px-4 text-center py-1 rounded-md shadow-md hover:-translate-y-[0.10rem] active:translate-y-[0.10rem]'>About</NavLink>
                 </div>
 
-                <img className='w-[70px] rounded-full shadow-lg shadow-black' src={logo} alt="" />
+                <img className='w-[70px] rounded-full shadow-lg shadow-black cursor-pointer hover:animate-bounce' src={logo} alt="" />
             </div>
         </nav>
     )
