@@ -1,0 +1,10 @@
+.errorContainer{
+    background-image: url('../../assets/errorpageimage.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.textshadow{
+    text-shadow: 2px 2px 2px black;
+}
