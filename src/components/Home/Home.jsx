@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Navbar from './Navbar'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useNavigation } from 'react-router-dom'
 import Introduction from '../Introduction/Introduction'
 
 const Home = () => {
@@ -8,13 +8,14 @@ const Home = () => {
     const handleIntro = (cond) => {
         setIntro(cond)
     }
-    console.log(intro)
+    // console.log(intro)
+    const navigation = useNavigation()
     return (
         <div>
 
             <Navbar handleIntro={handleIntro} />
             {
-                intro ? <Introduction /> : <Outlet />
+                navigation.state === 'loading'? <h1 className='text-center font-bold text-4xl'>Loading</h1> : intro ? <Introduction /> : <Outlet />
             }
             
         </div>
