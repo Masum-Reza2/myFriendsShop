@@ -20,6 +20,8 @@ import Frames from './components/Frames/Frames';
 import PhotoCopy from './components/PhotoCopy/PhotoCopy';
 import Lamination from './components/Lamination/Lamination';
 import Wedding from './components/Wedding/Wedding';
+import GadgetDetails from './components/Gadgets/GadgetDetails';
+
 
 // step 02
 const router = createBrowserRouter([
@@ -33,11 +35,12 @@ const router = createBrowserRouter([
       { path: '/pens', element: <Pens /> },
       { path: '/mobiles', element: <Mobile /> },
       { path: '/chargers', element: <Chargers /> },
-      { path: '/gadgets', element: <Gadgets /> },
+      { path: '/gadgets', loader: () => fetch('https://dummyjson.com/products'), element: <Gadgets /> },
       { path: '/frames', element: <Frames /> },
       { path: '/photocopy', element: <PhotoCopy /> },
       { path: '/lamination', element: <Lamination /> },
       { path: '/wedding', element: <Wedding /> },
+      { path: '/gadgets/:detailsId', loader: ({ params }) => fetch(`https://dummyjson.com/products/${params.detailsId}`), element: <GadgetDetails /> }
     ]
   },
 ]);
