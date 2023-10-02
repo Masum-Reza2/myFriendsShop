@@ -3,7 +3,7 @@ import { useLoaderData, useNavigate } from "react-router-dom"
 const GadgetDetails = () => {
 
     const navigate = useNavigate();
-    const handleGoBack = () =>{
+    const handleGoBack = () => {
         navigate(-1)
     }
 
@@ -25,7 +25,7 @@ const GadgetDetails = () => {
                 </div>
                 <strong>{description}</strong>
 
-                <button onClick={handleGoBack} className="border px-3 py-1 shadow-md shadow-gray-500">Go Back</button>
+                <button onClick={handleGoBack} className="border px-3 py-1 rounded-md shadow-md shadow-black hover:-translate-y-[0.10rem] active:translate-y-[0.10]">Go Back</button>
             </div>
         </div>
     )

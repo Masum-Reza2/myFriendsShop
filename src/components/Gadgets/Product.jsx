@@ -8,7 +8,7 @@ const Product = ({ product }) => {
             <p>{title}</p>
             <p className="font-bold">{price}$</p>
             <Link to={`/gadgets/${id}`}>
-                <button className="border px-3 py-1 rounded-md shadow-md">Details</button>
+                <button className="border px-3 py-1 rounded-md shadow-md hover:-translate-y-[0.10rem] active:translate-y-[0.10]">Details</button>
             </Link>
         </div>
     )

@@ -7,7 +7,6 @@ const SingleNote = ({ note }) => {
             <p className="font-semibold">{studyPhrase}</p>
             <p className="font-bold">{price}</p>
 
-
             <button className="border px-3 py-1 rounded-md shadow-md shadow-gray-500 font-bold hover:-translate-y-[0.10rem] active:translate-y-[0.10rem]">Details</button>
             {/* here show a modal on click Details */}
 

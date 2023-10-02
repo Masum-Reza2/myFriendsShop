@@ -21,6 +21,11 @@ import PhotoCopy from './components/PhotoCopy/PhotoCopy';
 import Lamination from './components/Lamination/Lamination';
 import Wedding from './components/Wedding/Wedding';
 import GadgetDetails from './components/Gadgets/GadgetDetails';
+import AuthProvider from './ContextProvider/AuthProvider';
+import Login from './Authentication/Login';
+import Register from './Authentication/Register';
+import PrivateRoute from './Authentication/PrivateRoute';
+import Introduction from './components/Introduction/Introduction';
 
 
 // step 02
@@ -30,23 +35,31 @@ const router = createBrowserRouter([
     element: <Home />,
     errorElement: <ErrorPage />,
     children: [
+      { path: '/', element: <PrivateRoute><Introduction /></PrivateRoute> },
       { path: '/about', element: <About /> },
-      { path: '/notes', loader: () => fetch('notebook.json'), element: <Note /> },
-      { path: '/pens', element: <Pens /> },
-      { path: '/mobiles', element: <Mobile /> },
-      { path: '/chargers', element: <Chargers /> },
+      { path: '/notes', loader: () => fetch('notebook.json'), element: <PrivateRoute><Note /></PrivateRoute> },
+      { path: '/pens', element: <PrivateRoute><Pens /></PrivateRoute> },
+      { path: '/mobiles', element: <PrivateRoute><Mobile /></PrivateRoute> },
+      { path: '/chargers', element: <PrivateRoute><Chargers /></PrivateRoute> },
       { path: '/gadgets', loader: () => fetch('https://dummyjson.com/products'), element: <Gadgets /> },
-      { path: '/frames', element: <Frames /> },
-      { path: '/photocopy', element: <PhotoCopy /> },
-      { path: '/lamination', element: <Lamination /> },
-      { path: '/wedding', element: <Wedding /> },
-      { path: '/gadgets/:detailsId', loader: ({ params }) => fetch(`https://dummyjson.com/products/${params.detailsId}`), element: <GadgetDetails /> }
+      { path: '/frames', element: <PrivateRoute><Frames /></PrivateRoute> },
+      { path: '/photocopy', element: <PrivateRoute><PhotoCopy /></PrivateRoute> },
+      { path: '/lamination', element: <PrivateRoute><Lamination /></PrivateRoute> },
+      { path: '/wedding', element: <PrivateRoute><Wedding /></PrivateRoute> },
+      { path: '/login', element: <Login /> },
+      { path: '/register', element: <Register /> },
+      // dynamic fetching
+      {
+        path: '/gadgets/:detailsId',
+        loader: ({ params }) => fetch(`https://dummyjson.com/products/${params.detailsId}`),
+        element: <GadgetDetails />
+      }
     ]
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <AuthProvider><RouterProvider router={router} /></AuthProvider>
   </React.StrictMode>,
 )
