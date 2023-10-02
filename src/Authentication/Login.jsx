@@ -22,10 +22,11 @@ const Login = () => {
             .then(result => {
                 if (!result.user.emailVerified) {
                     swal("Please verify your email!", "success")
+                } else {
+                    swal("Login successful!", "success")
+                    navigate('/')
                 }
-                swal("Login successful!", "success")
 
-                navigate('/')
             })
             .catch(error => {
                 swal(error.message)

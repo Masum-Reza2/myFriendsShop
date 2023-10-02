@@ -33,7 +33,7 @@ const Register = () => {
                 // sending verification email
                 sendEmailVerification(auth.currentUser)
                     .then(() => {
-                        swal("Verification code sent to your email!", "success")
+                        swal("Verification link sent to your email!", "success")
                     })
             })
             .catch(error => {

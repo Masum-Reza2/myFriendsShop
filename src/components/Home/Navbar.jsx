@@ -23,7 +23,7 @@ const Navbar = () => {
     const handleLogOut = () => {
         signOut(auth)
             .then(result => {
-                swal('Successfully LogOut')
+                swal('You have successfully log out')
                 navigate('/login')
             })
             .catch(error => {
